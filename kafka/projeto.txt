@@ -1,0 +1,41 @@
+sudo apt install python3-pip
+
+sudo -H pip install jupyter
+
+sudo pip install kafka-python
+
+inicializar jupyter notebook
+- jupyter notebook
+ 
+
+from kafka import KafkaProducer as kp
+import random
+produtor = kp(bootstrap_servers="127.0.0.1:9092")
+
+Criando projeto 42 --------------
+
+sudo apt install apache2
+
+sudo systemctl status apache2
+
+cd /var/
+rafael@DESKTOP-21RUQLT:/var$ cd log/apache2/
+rafael@DESKTOP-21RUQLT:/var/log/apache2$ ls
+access.log  error.log  other_vhosts_access.log
+rafael@DESKTOP-21RUQLT:/var/log/apache2$ cat access.log
+
+acessar localhost sem porta
+http://localhost/
+
+atualizar a pagina para gerara logs
+
+ver logs
+/var/log/apache2$ cat access.log
+
+criar um novo topico
+/kafka/bin$ ./kafka-topics.sh --bootstrap-server 127.0.0.1:9092 --topic apachelog --create --partitions 3 --replication-factor 3
+
+
+
+monitorar o log
+./kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic apachelog
