@@ -1,0 +1,6 @@
+%UserProfile%
+docker-compose up -d # começar o docker
+docker-compose ps ver a saude do docker
+root airflow
+Docker-compose down # para o docker
+

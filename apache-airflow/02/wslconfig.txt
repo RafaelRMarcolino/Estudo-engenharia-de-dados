@@ -1,0 +1,5 @@
+.wsl.config #nome do arquivo
+
+[wsl2]
+memory=4GB
+processors=4

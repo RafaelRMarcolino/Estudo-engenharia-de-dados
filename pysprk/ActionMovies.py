@@ -17,6 +17,18 @@ movieSchema = StructType(fields=[
 ])
 
 #dados movie
+
+
+
+
+
+
+
+
+
+
+
+
 movieData = [
     (1,'Batman', 3),
     (2, 'The Battle of the Dark River', 3),
